@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab06.HelloController">
+   <children>
+      <BarChart fx:id="barChart" layoutX="14.0" layoutY="164.0" prefHeight="219.0" prefWidth="301.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" fx:id="xAxis" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="yAxis" side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <PieChart fx:id="pieChart" layoutX="334.0" layoutY="14.0" prefHeight="228.0" prefWidth="252.0" />
+   </children>
+</AnchorPane>
